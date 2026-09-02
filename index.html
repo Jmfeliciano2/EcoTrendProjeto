@@ -19,14 +19,17 @@
   <header class="site-header">
     <nav class="navbar navbar-expand-lg">
       <div class="container header-inner">
-        <a class="brand" href="#topo">EcoTrend</a>
+        <a class="brand" href="index.html">EcoTrend</a>
         <div class="navbar-collapse" id="navMenu">
           <ul class="nav-links">
-            <li><a href="#categorias">Roupas</a></li>
-            <li><a href="#categorias">Beleza</a></li>
-            <li><a href="#categorias">Casa</a></li>
-            <li><a href="#categorias">Tecnologia</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="categorias.html">Roupas</a></li>
+            <li><a href="categorias.html">Beleza</a></li>
+            <li><a href="categorias.html">Casa</a></li>
+            <li><a href="categorias.html">Tecnologia</a></li>
+            <li><a href="contato.html">Contato</a></li>
           </ul>
+          <a class="cart-link" href="#">Carrinho · 0</a>
         </div>
       </div>
     </nav>
@@ -42,8 +45,55 @@
             complicar.</p>
           <a class="btn-primary" href="#produtos">Ver produtos</a>
         </div>
-        <div class="hero-visual">
-          <img src="./imagem.jpg" alt="" class="hero-image">
+
+        <div id="heroCarousel" class="carousel slide hero-carousel" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="hero-slide">
+                <div class="hero-content">
+                  <span class="product-tag">Promoção</span>
+                  <h2>Essenciais para um estilo sustentável</h2>
+                  <p>Roupas orgânicas, beleza natural e itens para casa com menos impacto.</p>
+                  <a class="btn-primary" href="categorias.html">Ver coleção</a>
+                </div>
+                <div class="hero-image-box">
+                  <img src="assets/images/imagem.jpg" alt="Coleção sustentável" class="hero-image">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="hero-slide">
+                <div class="hero-content">
+                  <span class="product-tag">Novo</span>
+                  <h2>Casa com menos plástico e mais consciência</h2>
+                  <p>Descubra itens reutilizáveis e de baixo impacto para o seu dia a dia.</p>
+                  <a class="btn-primary" href="produto.html">Comprar agora</a>
+                </div>
+                <div class="hero-image-box">
+                  <img src="assets/images/oleo2.jpg" alt="Itens para casa sustentáveis" class="hero-image">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="hero-slide">
+                <div class="hero-content">
+                  <span class="product-tag">Tecnologia</span>
+                  <h2>Green tech para facilitar seu dia</h2>
+                  <p>Eletrônicos eficientes com materiais reciclados e baixa pegada ambiental.</p>
+                  <a class="btn-primary" href="categorias.html">Explorar</a>
+                </div>
+                <div class="hero-image-box">
+                  <img src="assets/images/celular.jpg" alt="Tecnologia verde" class="hero-image">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </button>
         </div>
       </div>
     </section>
@@ -54,25 +104,25 @@
         <div class="categories-grid">
 
           <article class="category cat--roupas">
-            <img src="./algodao.png" alt="" class="category-media">
+            <img src="assets/images/algodao.png" alt="Roupas sustentáveis" class="category-media">
             <h3>Roupas e acessórios sustentáveis</h3>
             <p>Peças de algodão orgânico, fibras recicladas e tingimento natural.</p>
           </article>
 
           <article class="category cat--beleza">
-            <img src="./oleos.png" alt="" class="category-media">
+            <img src="assets/images/oleos.png" alt="Beleza natural" class="category-media">
             <h3>Beleza e cuidados naturais</h3>
             <p>Cosméticos livres de crueldade animal, com embalagens recarregáveis.</p>
           </article>
 
           <article class="category cat--casa">
-            <img src="./oleo2.jpg" alt="" class="category-media">
+            <img src="assets/images/oleo2.jpg" alt="Itens para casa" class="category-media">
             <h3>Itens para casa sustentáveis</h3>
             <p>Objetos duráveis, feitos com materiais reaproveitados e de baixo impacto.</p>
           </article>
 
           <article class="category cat--tech">
-            <img src="./celular.jpg" alt="" class="category-media">
+            <img src="assets/images/celular.jpg" alt="Tecnologia verde" class="category-media">
             <h3>Tecnologia verde</h3>
             <p>Eletrônicos eficientes e acessórios com plástico reciclado.</p>
           </article>
@@ -89,7 +139,7 @@
           <article class="product-card">
             <span class="product-tag">Sustentável</span>
             <h3>Camiseta de algodão orgânico</h3>
-            <img src="algodao organico.webp" alt="">
+            <img src="assets/images/algodao-organico.webp" alt="Camiseta de algodão orgânico">
             <p class="product-price">R$ 89,90</p>
             <button type="button" class="btn-secondary">Adicionar</button>
           </article>
@@ -97,7 +147,7 @@
           <article class="product-card">
             <span class="product-tag">Sustentável</span>
             <h3>Sabonete facial sólido</h3>
-            <img src="sabonete-solido.webp" alt="">
+            <img src="assets/images/sabonete-solido.webp" alt="Sabonete facial sólido">
             <p class="product-price">R$ 34,90</p>
             <button type="button" class="btn-secondary">Adicionar</button>
           </article>
@@ -105,7 +155,7 @@
           <article class="product-card">
             <span class="product-tag">Sustentável</span>
             <h3>Kit escova de dente de bambu</h3>
-            <img src="escova.webp" alt="">
+            <img src="assets/images/escova.webp" alt="Escova de bambu">
             <p class="product-price">R$ 24,90</p>
             <button type="button" class="btn-secondary">Adicionar</button>
           </article>
@@ -113,7 +163,7 @@
           <article class="product-card">
             <span class="product-tag">Sustentável</span>
             <h3>Jogo de toalhas recicladas</h3>
-            <img src="toalha.webp" alt="">
+            <img src="assets/images/toalha.webp" alt="Toalhas recicladas">
             <p class="product-price">R$ 129,90</p>
             <button type="button" class="btn-secondary">Adicionar</button>
           </article>
@@ -121,7 +171,7 @@
           <article class="product-card">
             <span class="product-tag">Sustentável</span>
             <h3>Canudo de metal</h3>
-            <img src="canudo.webp" alt="">
+            <img src="assets/images/canudo.webp" alt="Canudo de metal">
             <p class="product-price">R$ 149,90</p>
             <button type="button" class="btn-secondary">Adicionar</button>
           </article>
@@ -129,7 +179,7 @@
           <article class="product-card">
             <span class="product-tag">Sustentável</span>
             <h3>Ecobag de juta</h3>
-            <img src="sacola.webp" alt="">
+            <img src="assets/images/sacola.webp" alt="Ecobag de juta">
             <p class="product-price">R$ 39,90</p>
             <button type="button" class="btn-secondary">Adicionar</button>
           </article>
@@ -180,18 +230,17 @@
       <div class="footer-col">
         <h4>Comprar</h4>
         <ul>
-          <li><a href="#categorias">Roupas</a></li>
-          <li><a href="#categorias">Beleza</a></li>
-          <li><a href="#categorias">Casa</a></li>
-          <li><a href="#categorias">Tecnologia</a></li>
+          <li><a href="categorias.html">Roupas</a></li>
+          <li><a href="categorias.html">Beleza</a></li>
+          <li><a href="categorias.html">Casa</a></li>
+          <li><a href="categorias.html">Tecnologia</a></li>
         </ul>
       </div>
       <div class="footer-col">
         <h4>Empresa</h4>
         <ul>
-          <li><a href="#">Sobre a EcoTrend</a></li>
-          <li><a href="#">Impacto ambiental</a></li>
-          <li><a href="#">Contato</a></li>
+          <li><a href="contato.html">Sobre a EcoTrend</a></li>
+          <li><a href="contato.html">Contato</a></li>
         </ul>
       </div>
       <div class="footer-col">

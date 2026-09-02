@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EcoTrend — Categorias</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container header-inner">
+                <a class="brand" href="index.html">EcoTrend</a>
+                <div class="navbar-collapse" id="navMenu">
+                    <ul class="nav-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="categorias.html">Categorias</a></li>
+                        <li><a href="produto.html">Produto</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                    <a class="cart-link" href="#">Carrinho · 0</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container shop-layout">
+            <aside class="shop-sidebar">
+                <h3>Filtros</h3>
+
+                <div class="filter-group">
+                    <label for="tipo">Tipo de produto</label>
+                    <select id="tipo">
+                        <option>Todos</option>
+                        <option>Roupas</option>
+                        <option>Beleza</option>
+                        <option>Casa</option>
+                        <option>Tecnologia</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="preco">Faixa de preço</label>
+                    <select id="preco">
+                        <option>Qualquer valor</option>
+                        <option>Até R$ 50</option>
+                        <option>R$ 50 a R$ 100</option>
+                        <option>Acima de R$ 100</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="marca">Marca</label>
+                    <select id="marca">
+                        <option>Todas</option>
+                        <option>EcoTrend</option>
+                        <option>Verde Vita</option>
+                        <option>Natural Box</option>
+                    </select>
+                </div>
+            </aside>
+
+            <div class="shop-products">
+                <article class="shop-product-card">
+                    <img src="assets/images/algodao-organico.webp" alt="Camiseta de algodão orgânico">
+                    <h3>Camiseta de algodão orgânico</h3>
+                    <p>R$ 89,90</p>
+                    <button class="btn-secondary">Adicionar ao carrinho</button>
+                </article>
+
+                <article class="shop-product-card">
+                    <img src="assets/images/sabonete-solido.webp" alt="Sabonete facial sólido">
+                    <h3>Sabonete facial sólido</h3>
+                    <p>R$ 34,90</p>
+                    <button class="btn-secondary">Adicionar ao carrinho</button>
+                </article>
+
+                <article class="shop-product-card">
+                    <img src="assets/images/escova.webp" alt="Escova de bambu">
+                    <h3>Kit escova de dente de bambu</h3>
+                    <p>R$ 24,90</p>
+                    <button class="btn-secondary">Adicionar ao carrinho</button>
+                </article>
+
+                <article class="shop-product-card">
+                    <img src="assets/images/toalha.webp" alt="Toalhas recicladas">
+                    <h3>Jogo de toalhas recicladas</h3>
+                    <p>R$ 129,90</p>
+                    <button class="btn-secondary">Adicionar ao carrinho</button>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-bottom">
+            <p>&copy; 2026 EcoTrend. Projeto acadêmico desenvolvido para fins de estudo.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
